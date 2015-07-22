@@ -14,6 +14,11 @@ make
 make check
 make install
 ```
+* MECAB PATH 설정 .bash_profile
+```
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:/usr/local/mecab/bin
+```
+
 * MECAB-KO-DIC 사전(DICTIONARY) 파일
 ```
 wget https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-1.6.1-20140814.tar.gz
