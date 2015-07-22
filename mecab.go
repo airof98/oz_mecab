@@ -1,7 +1,7 @@
 package ozmecab
 
 // #cgo CFLAGS: -I .
-// #cgo LDFLAGS: -L /home1/irteam/mecab/lib -lmecab -lstdc++
+// #cgo LDFLAGS: -L /usr/local/mecab/lib -lmecab -lstdc++
 // #include <mecab_c.h>
 // #include <stdio.h>
 // #include <stdlib.h>
