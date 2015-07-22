@@ -9,10 +9,10 @@ Installation
 wget https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
 tar -xvzf mecab-0.996-ko-0.9.2.tar.gz
 cd mecab-0.996-ko-0.9.2
-./configure --prefix=/usr/local
+./configure --prefix=/usr/local/mecab
 make
 make check
-sudo make install
+make install
 ```
 * MECAB-KO-DIC 사전(DICTIONARY) 파일
 ```
