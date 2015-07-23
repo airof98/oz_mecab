@@ -23,9 +23,9 @@ func Init() error {
 }
 
 type Word struct {
-	w string
-	t string
-	i string
+	W string
+	T string
+	I string
 }
 
 func Parse(text string) ([]Word, error) {
@@ -48,11 +48,11 @@ func Parse(text string) ([]Word, error) {
 		}
 
 		var m Word
-		m.w = sss[0]
-		m.i = sss[1]
+		m.W = sss[0]
+		m.I = sss[1]
 		ssss := strings.Split(sss[1], ",")
 		if len(ssss) > 0 {
-			m.t = ssss[0]
+			m.T = ssss[0]
 		}
 
 		mw = append(mw, m)
