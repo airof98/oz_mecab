@@ -1,7 +1,6 @@
 # oz_mecab
 
 MeCab 한글 형태소 분석기 Go Wrapper
-https://bitbucket.org/eunjeon/mecab-ko-dic
 
 Installation
 -----------
@@ -21,6 +20,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:/usr/local/mecab/bin
 ```
 
 * MECAB-KO-DIC 사전(DICTIONARY) 파일
+
+https://bitbucket.org/eunjeon/mecab-ko-dic
 ```
 wget https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-1.6.1-20140814.tar.gz
 tar -xvzf ./mecab-ko-dic-1.6.1-20140814.tar.gz
