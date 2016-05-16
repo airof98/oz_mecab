@@ -1,6 +1,7 @@
 # oz_mecab
 
 MeCab 한글 형태소 분석기 Go Wrapper
+https://bitbucket.org/eunjeon/mecab-ko-dic
 
 Installation
 -----------
